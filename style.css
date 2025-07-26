@@ -1,0 +1,109 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+     font-family: "Poppins", sans-serif;
+    
+}
+
+
+:root{
+    --colorname : rgb(203, 150, 203);
+}
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+/* 1rem bydefault 16px  */
+/* 1rem 10px */
+
+
+
+.maiinflex{
+    display: flex;
+    
+    flex-wrap: wrap;
+    padding-inline: 6rem;
+    align-items: center;
+}
+
+.contentdiv{
+    width: 50%;
+}
+
+.imgdiv img{
+    width: 500px;
+}
+
+
+.contentdiv h5{
+    font-size: 3rem;
+}
+
+.contentdiv h1{
+    font-size: 7rem;
+}
+
+.contentdiv p{
+    font-size: 1.5rem;
+}
+
+.contentdiv button{
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+    .imgdiv img {
+    width: 350px;
+}
+
+.contentdiv{
+    width: 100%;
+}
+
+.imgdiv{
+    /* border: 1px solid red; */
+}
+}
+
+
+@media screen and (max-width:500px) {
+    .imgdiv img {
+    width: 250px;
+}
+
+.contentdiv h1 {
+    font-size: 4rem;
+}
+
+.contentdiv{
+    width: 100%;
+}
+
+.imgdiv{
+    /* border: 1px solid red; */
+    margin-top: 5rem;
+}
+
+.maiinflex {
+    padding-inline: 2rem;
+}
+}
